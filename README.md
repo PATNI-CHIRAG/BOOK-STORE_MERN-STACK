@@ -61,7 +61,7 @@ JWT_SECRET=replace_with_strong_secret
 Note: Please setup mongodb and change the MongoDB url and set your jwt secret key above.
 ```
 
-**Client `.env`:**
+**Client `.env.local`:**
 ```env
 # For Vite:
 VITE_API_BASE_URL=http://localhost:5000/api
