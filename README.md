@@ -56,7 +56,7 @@ Create `.env` files as shown below.
 **Server `.env`:**
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/<your_database_name>
+MONGO_URL=mongodb://localhost:27017/<your_database_name>
 JWT_SECRET=replace_with_strong_secret
 NODE_ENV=development
 ```
