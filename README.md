@@ -61,10 +61,11 @@ JWT_SECRET=replace_with_strong_secret
 Note: Please setup mongodb and change the MongoDB url and set your jwt secret key above.
 ```
 
-**Client `.env.local`:**
+**Client `.env`:**
 ```env
 # For Vite:
 VITE_API_BASE_URL=http://localhost:5000/api
+# set your own firebase key for login/register
 VITE_API_KEY="AIzaSyCXvDIC4MPrkaMdeg_O2iij88wLpfj3qBA"
 VITE_Auth_Domain="book-store-mern-app.firebaseapp.com"
 VITE_PROJECT_ID="book-store-mern-app"
@@ -96,8 +97,9 @@ The React app will open on something like `http://localhost:5173`, and the API o
 ```bash
 # Build client
 cd BOOK-STORE_MERN-STACK /frontend && npm run build
+# copy all books from frontend/dist/books.json and put in books model in your database
 # Start server (should serve API; you can also serve the built client statically or deploy separately)
-cd ../BOOK-STORE_MERN-STACK /backend && npm start
+cd ../BOOK-STORE_MERN-STACK /backend && npm run start:dev
 ```
 
 ## 🔗 API Base URL
