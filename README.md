@@ -14,12 +14,6 @@ A full‑stack **Book Store** application built with **MongoDB, Express.js, Reac
 bookstore_mern_project_retry/
   BOOK-STORE_MERN-STACK /
     book-store.fig
-    .git/
-      HEAD
-      config
-      description
-      index
-      packed-refs
     backend/
       .env
       .gitignore
