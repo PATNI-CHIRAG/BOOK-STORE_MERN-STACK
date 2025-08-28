@@ -58,7 +58,7 @@ Create `.env` files as shown below.
 PORT=5000
 MONGO_URL=mongodb://localhost:27017/<your_database_name>
 JWT_SECRET=replace_with_strong_secret
-NODE_ENV=development
+Note: Please setup mongodb and change the MongoDB url and set your jwt secret key above.
 ```
 
 **Client `.env`:**
