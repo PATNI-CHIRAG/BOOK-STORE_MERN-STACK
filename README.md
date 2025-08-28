@@ -65,6 +65,12 @@ NODE_ENV=development
 ```env
 # For Vite:
 VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_KEY="AIzaSyCXvDIC4MPrkaMdeg_O2iij88wLpfj3qBA"
+VITE_Auth_Domain="book-store-mern-app.firebaseapp.com"
+VITE_PROJECT_ID="book-store-mern-app"
+VITE_STORAGE_BUCKET="book-store-mern-app.appspot.com"
+VITE_MESSAGING_SENDERID="205632822247"
+VITE_APPID="1:205632822247:web:b0db0ec66bf6de0bbb3b42"
 # For CRA:
 # REACT_APP_API_BASE_URL=http://localhost:5000/api
 ```
