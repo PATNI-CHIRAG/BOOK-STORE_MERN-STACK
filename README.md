@@ -1,5 +1,11 @@
 # 📚 Book Store – MERN Stack
 A full‑stack **Book Store** application built with **MongoDB, Express.js, React, and Node.js (MERN)**. Users can browse books, add to cart, checkout, and manage orders. Includes an admin panel for inventory and order management.
+
+# 🎥 Watch Demo
+
+https://github.com/user-attachments/assets/1b5608b3-4902-4de6-812e-01e69baa857b
+
+
 ## ✨ Features
 - Responsive React UI with routing
 - User authentication (JWT) & protected routes
